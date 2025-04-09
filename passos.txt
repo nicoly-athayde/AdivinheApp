@@ -1,0 +1,21 @@
+AdivinheApp
+
+Configurando o GIT:
+git config --global user.name nicoly-athayde
+git config --global user.email nicolyathayde4@gmail.com
+
+Abrir o terminal:
+Ctrl + '
+
+Criar um projeto React Native com Expo:
+npx create-expo-app@latest AdivinheApp --template blank
+
+cd AdivinheApp
+
+Executar o projeto:
+npx expo start --localhost --android
+
+npx expo install react-dom react-native-web @expo/metro-runtime
+
+cd AdivinheApp
+npm i
